@@ -5,7 +5,7 @@ function On_EncodeButtonClick(){
 }
 
 function On_DecodeButtonClick(){
-    var url_string = document.getElementById("url_to_encode").value;
+    var url_string = document.getElementById("url_to_decode").value;
     var decoded_url = decodeURI(url_string);
     document.getElementById("url_to_encode").value = decoded_url;
 }
